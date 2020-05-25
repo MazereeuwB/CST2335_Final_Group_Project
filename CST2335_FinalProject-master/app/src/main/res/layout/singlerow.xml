@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageLocation"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Title: "
+        android:id="@+id/title"
+        android:layout_below="@+id/imageLocation"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:textSize="15dp"
+        android:id="@+id/titleOfPOTD"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Explanation:"
+        android:id="@+id/explanation"
+        android:layout_below="@+id/titleOfPOTD"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_below="@id/explanation"
+        android:id="@+id/explanationOfPOTD" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Date:"
+        android:id="@+id/date"
+        android:layout_below="@+id/explanationOfPOTD"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_below="@id/date"
+        android:id="@+id/dateOfPic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="HD Link:"
+        android:id="@+id/hdLink"
+        android:layout_below="@+id/dateOfPic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_below="@id/hdLink"
+        android:id="@+id/linkPicHD"
+        android:autoLink="web" />
+
+    <ProgressBar
+        android:id="@+id/progressBarNasaImgSearch"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    //progressBar not used yet
+</RelativeLayout>

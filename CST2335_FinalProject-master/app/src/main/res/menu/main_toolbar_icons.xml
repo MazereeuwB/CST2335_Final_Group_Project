@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="guardianNew"
+        android:icon="@drawable/guardian"
+        android:id="@+id/guardianNew"
+        app:showAsAction="always"></item>
+    <item android:title="nasaImage"
+        android:icon="@drawable/nasa_earth"
+        android:id="@+id/nasaImage"
+        app:showAsAction="always"></item>
+    <item android:title="nasaEarth"
+        android:id="@+id/nasaEarth"
+        android:icon="@drawable/nasa_logo"
+        app:showAsAction="always"></item>
+    <item android:title="bbcNew"
+        android:id="@+id/bbcNew"
+        android:icon="@drawable/bbc_news"
+        app:showAsAction="always"></item>
+</menu>

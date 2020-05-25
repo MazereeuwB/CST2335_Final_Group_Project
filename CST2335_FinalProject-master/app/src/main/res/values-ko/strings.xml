@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bbc_title">제목</string>
+    <string name="bbc_description">설명</string>
+    <string name="bbc_date">날짜</string>
+    <string name="bbc_link">URL</string>
+    <string name="bbc_detail_btn_goToLink">URL 바로가기</string>
+    <string name="bbc_delete">삭제</string>
+    <string name="bbc_articleDetail_title">세부 내용</string>
+    <string name="bbc_search">검색</string>
+    <string name="bbc_articleupdated">개의 기사를 BBC로부터 불러왔습니다.</string>
+    <string name="bbc_delete_alert_title">삭제 확인</string>
+    <string name="bbc_cm_yes">네</string>
+    <string name="bbc_cm_no">아니오</string>
+    <string name="bbc_deleted">기사가 삭제 되었습니다</string>
+    <string name="bbc_undo_done">기사가 재추가 되었습니다</string>
+    <string name="bbc_found">기사가 검색 되었습니다</string>
+    <string name="bbc_detail_btn_addToFavorite">즐겨찾기에 추가하기</string>
+    <string name="bbc_favorites_title">즐겨찾기</string>
+    <string name="bbc_help">도움말</string>
+    <string name="bbc_backToMain">메인화면 나가기</string>
+    <string name="bbc_articleList_title">현재 기사들</string>
+    <string name="bbc_cm_ok">OK</string>
+    <string name="bbc_already_in">현재 페이지 입니다.</string>
+    <string name="bbc_undo">되돌리기</string>
+    <string name="bbc_add_succeed">즐겨찾기에 추가되었습니다.</string>
+    <string name="bbc_add_fail">이미 저장되어 있는 기사입니다.</string>
+    <string name="open">열기</string>
+    <string name="close">닫기</string>
+    <string name="bbc_help_detail_1">■ 현재 기사들\n&#160;&#160;&#160;&#160;BBC의 기사들을 보여줍니다.\n&#160;&#160;&#160;&#160;[클릭] 세부 내용 보기</string>
+    <string name="bbc_help_detail_2">■ 세부 내용\n&#160;&#160;&#160;&#160;기사의 세부내용을 보여줍니다.\n&#160;&#160;&#160;&#160;[클릭] 즐겨찾기로 추가</string>
+    <string name="bbc_help_detail_3">■ 즐겨찾기\n&#160;&#160;&#160;&#160;즐겨찾기 기사들을 보여줍니다.\n&#160;&#160;&#160;&#160;[클릭] 세부 내용 보기\n&#160;&#160;&#160;&#160;[길게 클릭] 기사 삭제</string>
+    <string name="bbc_load_failed">서버에서 기사를 가져오지 못하였습니다.</string>
+</resources>

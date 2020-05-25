@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NASA_Search.Nasa_SearchPage">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nasa_Search_DateDisplay"
+        android:textSize="20dp"
+        android:layout_above="@+id/openDateBtn"
+        android:layout_toRightOf="@+id/listView"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="28dp"/>
+
+    <Button
+        android:id="@+id/openDateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nasa_Search_openDateBtn"
+        android:layout_marginLeft="35dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/listView"/>
+
+    <Button
+        android:id="@+id/searchDateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nasa_Search_searchDateBtn"
+        android:layout_marginLeft="35dp"
+        android:layout_below="@+id/openDateBtn"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/listView"/>
+
+    <ImageButton
+        android:id="@+id/favButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/listView"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+</RelativeLayout>

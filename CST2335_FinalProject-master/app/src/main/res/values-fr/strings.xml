@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CST2335_FinalProject</string>
+    <string name="nasa_imagery_header">Base de données d\'images de la Terre de la NASA</string>
+    <string name="nasa_imagery_latHeader">Entrez Latitude:</string>
+    <string name="nasa_imagery_editLat">Entrez Latitude ici</string>
+    <string name="nasa_imagery_longHeader">Entrez la longitude:</string>
+    <string name="nasa_imagery_editLong">Entrez la longitude ici</string>
+    <string name="nasa_imagery_inputButton">Rechercher une image</string>
+    <string name="nasa_imagery_displayHeader">Affichage d\'image NASA</string>
+    <string name="nasa_imagery_displayBack">Revenir à la page principale</string>
+    <string name="nasa_imagery_displayFav">Ajoutez à vos favoris!</string>
+    <string name="nasa_imagery_goToFavBtn">Voir vos images préférées!</string>
+    <string name="nasa_imagery_fragBtn">Cacher</string>
+    <string name="nasa_imagery_displayLat">Latitude: </string>
+    <string name="nasa_imagery_displayLong">Longitude: </string>
+    <string name="nasa_imagery_displayDirection">Direction: </string>
+    <string name="nasa_imagery_Snackbar1">L\'image est déjà dans vos favoris!</string>
+    <string name="nasa_imagery_Snackbar2">Image ajoutée à vos favoris!</string>
+    <string name="nasa_imagery_Toast1">Image non trouvée. Réessayer</string>
+    <string name="nasa_imagery_Toast2">Entrée invalide. Réessayer</string>
+    <string name="nasa_imagery_help">Aidez-moi!</string>
+    <string name="nasa_imagery_helpString1">Pour rechercher une image: entrez la latitude et la longitude (sous forme décimale)
+        de l\'emplacement que vous souhaitez voir, ainsi que la direction de l\'image.</string>
+    <string name="nasa_imagery_helpString2">Vous pouvez ensuite ajouter cette image à une liste de vos favoris.</string>
+    <string name="nasa_imagery_helpString3">Pour voir vos favoris dès maintenant, cliquez simplement sur le bouton "Voir vos favoris!" bouton.</string>
+    <string name="nasa_imagery_DirectionHeader">Entrez la direction de l\'image</string>
+    <string name="nasa_imagery_editDirection">Entrez la direction ici:</string>
+    <string name="nasa_imagery_helpStringTitle">Info</string>
+    <string name="nasa_imagery_alertTitle">Voulez-vous supprimer cette image?</string>
+    <string name="nasa_imagery_alertMessage1">La ligne sélectionnée est: </string>
+    <string name="nasa_imagery_alertMessage2">L\'identifiant de la base de données est:</string>
+    <string name="nasa_imagery_alertYes">Oui</string>
+    <string name="nasa_imagery_alertNo">Non</string>
+</resources>

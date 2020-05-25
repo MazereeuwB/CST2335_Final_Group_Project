@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Nasa_Search_openDateBtn">Choose Date</string>
+    <string name="Nasa_Search_searchDateBtn">Search Date</string>
+    <string name ="Nasa_Search_DateDisplay">Date</string>
+    <string name ="Nasa_Search_SearchDateToast">Searching for picture for that date</string>
+    <string name ="Nasa_Search_FavListToast">Added to thy favorites list</string>
+</resources>

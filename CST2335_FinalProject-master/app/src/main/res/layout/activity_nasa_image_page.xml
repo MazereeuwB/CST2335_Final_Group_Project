@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NASA_Imagery.NASA_imagePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/nasa_imagery_displayHeader"
+        android:text="@string/nasa_imagery_displayHeader"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/nasa_imagery_displayHeader"
+        android:layout_height="wrap_content"
+        android:id="@+id/nasa_imagery_displayLat"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/nasa_imagery_displayLat"
+        android:layout_height="wrap_content"
+        android:id="@+id/nasa_imagery_displayLong"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/nasa_imagery_displayLong"
+        android:layout_height="wrap_content"
+        android:id="@+id/nasa_imagery_displayDirection"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nasa_imagery_displayDirection"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:visibility="invisible"
+        android:id="@+id/nasa_imagery_displayBar"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nasa_imagery_displayBar"
+        android:layout_above="@+id/nasa_imagery_displayFav"
+        android:id="@+id/nasa_imagery_displayImage"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nasa_imagery_displayBack"
+        android:id="@+id/nasa_imagery_displayFav"
+        android:text="@string/nasa_imagery_displayFav"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nasa_imagery_displayBack"
+        android:layout_alignParentBottom="true"
+        android:text="@string/nasa_imagery_displayBack"/>
+
+
+
+</RelativeLayout>

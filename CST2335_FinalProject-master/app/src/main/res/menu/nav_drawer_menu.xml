@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_groud"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_GNews_Button"
+            android:title="@string/gnews"/>
+        <item
+            android:id="@+id/nav_nasa_imagery_Button"
+            android:title="@string/nasa_imagery_header"/>
+        <item
+            android:id="@+id/nav_bbc_Button"
+            android:title="@string/bbc_main_title"/>
+        <item
+            android:id="@+id/nav_nasa_day_Button"
+            android:title="Nasa Image of the Day"/>
+    </group>
+</menu>
